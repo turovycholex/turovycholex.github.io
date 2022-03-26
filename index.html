@@ -4,8 +4,9 @@
     <title>
         Сайт web-студії "Web-DECO"
     </title> 
-    <style>
-        .shadowtext{
+        <style>
+        .shadowtext
+        {
             text-shadow: 1px 3px 2px white, 0 0 1em red;
             color: #210042;
             font-size: 2em;
@@ -43,6 +44,35 @@
                     <p align="right"><a href="#">інші...</a></p>
                 </ul>
             </font>
+            <hr>
+            <H1 align="center"><font color="green">Реєстрація</font></H1>
+            <form action="forma.php" method="post" onsubmit="return send() ;">
+            <table align="center" bgcolor="#ccc">
+                <tr>
+                    <TD><font color="green">Прізвище</font>: </TD>
+                    <td> <input type="text" size="10" maxlenght="20" name="name2"> </td>
+                </tr>
+               
+                 <tr>
+                     <TD><font color="green">Ім'я</font>: </TD>
+                     <td> <input type="text" size="10" maxlenght="20" name="name1"> </td>
+                </tr>
+                <tr>
+                    <TD><font color="green">E-Mail</font>: </TD>
+                    <td> <input type="email" size="10" maxlenght="20" name="email"> </td>
+               </tr>
+               <tr>
+                <TD><font color="green">Пароль</font>: </TD>
+                <td> <input type="password" size="10" maxlenght="20" name="password"> </td>
+           </tr>
+            </table>
+            <p align="center">
+                <input type="submit" value="Зареєструватись">
+                <input type="reset" value="Очистити">
+                </p>
+            
+            </form>
+        </hr>
         </td>
         <td width="70%">
             <p>Зробити сайт з нами легко</p>
@@ -53,7 +83,7 @@
 <p>Наша вебстудія допоможе, якщо Вам потрібно:</p>
 <p>
     <ul>
-   <li> зробити сайт якісно</li>
+    <li> зробити сайт якісно</li>
     <li>зробити сайт недорого</li>
     <li>зробити сайт швидко</li>
     <li>зробити сайт ефективно</li>
